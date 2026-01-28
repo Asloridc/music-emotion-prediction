@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+tf-env/
+
+# Dataset (trop volumineux pour GitHub)
+deam_dataset/
+
+# Modeles entraines et artefacts
+models/
+models_dl_2categories/
+models_dl_preextracted/
+models_optimized/
+*.pkl
+*.h5
+
+# Donnees preprocessees
+processed_data/
+
+# Plots generes
+analysis_plots/
+plots_results/
+*.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
